@@ -55,8 +55,8 @@ const messages = defineMessages({
       "the image file is available in the Cluster on the vSphere instance that you specified.",
   },
   vmwarePopoverAria: {
-    id: "wizard.imageOutput.uploadVMWare.popoverAria",
-    defaultMessage: "Upload to VMWare help",
+    id: "wizard.imageOutput.uploadVMware.popoverAria",
+    defaultMessage: "Upload to VMware help",
   },
   ociPopoverBody: {
     id: "wizard.imageOutput.uploadOCI.popoverBody",
@@ -237,8 +237,8 @@ const imageOutput = (intl) => {
         label: (
           <>
             <FormattedMessage
-              id="wizard.imageOutput.uploadVMWare"
-              defaultMessage="Upload to VMWare"
+              id="wizard.imageOutput.uploadVMware"
+              defaultMessage="Upload to VMware"
             />
             <Popover
               bodyContent={intl.formatMessage(messages.vmwarePopoverBody)}
